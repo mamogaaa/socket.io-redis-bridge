@@ -10,7 +10,6 @@ client.subscribe CONFIG.channel
 client.on 'message', (channel, message) ->
   try
     message = JSON.parse message
-    console.log message
     if message.channel
       io.emit message.channel, message.data
   catch e
