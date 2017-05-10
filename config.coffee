@@ -7,3 +7,6 @@ module.exports =
     password: process.env.REDIS_PASSWORD || undefined
 
   channel: process.env.CHANNEL || 'echo'
+
+  dataField: process.env.DATA_FIELD || 'data'
+  channelNameField: proccess.env.CHANNEL_NAME_FIELD || 'event'

@@ -11,7 +11,7 @@ client.on 'message', (channel, message) ->
   try
     message = JSON.parse message
     if message.channel
-      io.emit message.channel, message.data
+      io.emit message[CONFIG.channelNameField], message[CONFIG.dataField]
   catch e
     console.warn e
 
