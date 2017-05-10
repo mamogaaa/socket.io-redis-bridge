@@ -16,5 +16,9 @@
     "dotenv": "^4.0.0",
     "redis": "^2.7.1",
     "socket.io": "^1.7.3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/nordikafiles/socket.io-redis-bridge"
   }
 }
