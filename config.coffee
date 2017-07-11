@@ -9,4 +9,4 @@ module.exports =
   channel: process.env.CHANNEL || 'echo'
 
   dataField: process.env.DATA_FIELD || 'data'
-  channelNameField: proccess.env.CHANNEL_NAME_FIELD || 'event'
+  channelNameField: process.env.CHANNEL_NAME_FIELD || 'event'
